@@ -1,0 +1,17 @@
+{
+  "698": "- SIN ESPECIFICAR -",
+  "343": "ALGARROBO",
+  "344": "ALHUE",
+  "689": "ALTO BIO BIO",
+  "345": "ALTO DEL CARMEN",
+  "692": "ALTO HOSPICIO",
+  "346": "ANCUD",
+  "347": "ANDACOLLO",
+  "348": "ANGOL",
+  "696": "ANTARTICA",
+  "350": "ANTOFAGASTA",
+  "351": "ANTUCO",
+  "352": "ARAUCO",
+  "353": "ARICA",
+  ...
+}
