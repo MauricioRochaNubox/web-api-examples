@@ -1,5 +1,5 @@
 var settings = {
-  "url": "https://api.nubox.com/Nubox.API.cert/factura/documento/15478788-7/1/13954729-2/1/39/dte/extendido",
+  "url": "https://api.nubox.com/Nubox.API/factura/documento/15478788-7/1/13954729-2/1/39/dte/extendido",
   "method": "POST",
   "timeout": 0,
   "headers": {
