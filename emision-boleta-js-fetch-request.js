@@ -11,7 +11,7 @@ var requestOptions = {
   redirect: 'follow'
 };
 
-fetch("https://api.nubox.com/Nubox.API.cert/factura/documento/15478788-7/1/13954729-2/1/39/dte/extendido", requestOptions)
+fetch("https://api.nubox.com/Nubox.API/factura/documento/15478788-7/1/13954729-2/1/39/dte/extendido", requestOptions)
   .then(response => response.text())
   .then(result => console.log(result))
   .catch(error => console.log('error', error));
