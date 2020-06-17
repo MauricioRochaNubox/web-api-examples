@@ -9,7 +9,7 @@ xhr.addEventListener("readystatechange", function() {
   }
 });
 
-xhr.open("POST", "https://api.nubox.com/Nubox.API.cert/factura/documento/15478788-7/1/13954729-2/1/emitir/ventaExtendido");
+xhr.open("POST", "https://api.nubox.com/Nubox.API/factura/documento/15478788-7/1/13954729-2/1/emitir/ventaExtendido");
 xhr.setRequestHeader("token", "d8d35079-3fe4-48bd-8b02-de05030a25d3");
 xhr.setRequestHeader("Content-Type", "application/json");
 
