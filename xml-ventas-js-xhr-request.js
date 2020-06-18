@@ -9,7 +9,7 @@ xhr.addEventListener("readystatechange", function() {
   }
 });
 
-xhr.open("GET", "https://api.nubox.com/Nubox.API/factura/documento/15478788-7/venta/2020-01-02/33/0/1?token");
-xhr.setRequestHeader("token", "d2f28227-bc22-4bd8-9cdc-c418c8197270");
+xhr.open("GET", "https://api.nubox.com/Nubox.API.cert/factura/documento/15478788-7/venta/2020-01-02/33/0/1");
+xhr.setRequestHeader("token", "898e879d-ccba-40c4-898c-5d4a97f8ed9c");
 
 xhr.send(data);
