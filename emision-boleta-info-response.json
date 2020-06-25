@@ -1,0 +1,45 @@
+{
+   "Respuesta":{
+      "Version":{
+         "Major":1,
+         "Minor":1,
+         "Build":-1,
+         "Revision":-1,
+         "MajorRevision":-1,
+         "MinorRevision":-1
+      },
+      "Content":{
+         "Headers":[
+            {
+               "Key":"Content-Type",
+               "Value":[
+                  "image/png"
+               ]
+            },
+            {
+               "Key":"Content-Disposition",
+               "Value":[
+                  "attachment; filename=DTE_FOLIO_407.png"
+               ]
+            },
+            {
+               "Key":"xmlId",
+               "Value":[
+                  "1684063"
+               ]
+            }
+         ]
+      },
+      "StatusCode":200,
+      "ReasonPhrase":"OK",
+      "Headers":[
+
+      ],
+      "RequestMessage":null,
+      "IsSuccessStatusCode":true
+   },
+   "MontoTotal":150000,
+   "Folio":407,
+   "UrlBoleta":"error al obtener la url",
+   "TED":"<TED version=\"1.0\"><DD><RE>76103915-6</RE><TD>39</TD><F>407</F><FE>2020-06-16</FE><RR>11111111-1</RR><RSR>venta23</RSR><MNT>150000</MNT><IT1>Privado</IT1><CAF version=\"1.0\"><DA><RE>76103915-6</RE><RS>NUBOX SPA</RS><TD>39</TD><RNG><D>360</D><H>459</H></RNG><FA>2019-04-05</FA><RSAPK><M>ua1ZhNZVO06hruVaF43vLh2DV7DqePoCS6J4oaVYGZe2iTRYwwhs7yU+J3fZ8C9hd1IPuO7iZYVr+GRJXYv5XQ==</M><E>Aw==</E></RSAPK><IDK>100</IDK></DA><FRMA algoritmo=\"SHA1withRSA\">sD9VyzBQCcRSYUuol+6lOBPkfR8e9AO6nkzm/SBiRoGWfOoQEdM9N2YrzqkwR9bcgHGSLUBC+mJoQTsPCllHIA==</FRMA></CAF><TSTED>2020-06-25T16:03:24</TSTED></DD><FRMT algoritmo=\"SHA1withRSA\">\r\niET+bA4oteq7xZGwH3KQuNm2NZMkVU5mVNbmh9VWYq3qx/VAyQ/A11u2gp8h4BBj5ifiR9jADG+zaPcUAkdExw==\r\n</FRMT></TED>"
+}
