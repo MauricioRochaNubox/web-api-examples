@@ -1,0 +1,37 @@
+{
+  "codigoSIITipoDoc": 0,
+  "folio": "string",
+  "fecha": "2020-07-01T23:59:09.658Z",
+  "rutEmisor": "string",
+  "razonSocialEmisor": "string",
+  "estado": "string",
+  "montoExento": 0,
+  "montoNeto": 0,
+  "montoIva": 0,
+  "montoTotal": 0,
+  "glosa": "string",
+  "montoIvaNoRetenido": 0,
+  "IVAUsoComun": 0,
+  "periodo": 0,
+  "anno": 0,
+  "totalLey18211": 0,
+  "tipoTransaccionCompra": "string",
+  "netoActivoFijo": 0,
+  "IVAActivoFijo": 0,
+  "otrosImpuestos": [
+    {
+      "codigoImpuesto": "string",
+      "montoImpuesto": 0
+    }
+  ],
+  "IVANoRecuperable": {
+    "codigo": "string",
+    "monto": 0
+  },
+  "comisionesYOtrosCargos": {
+    "neto": 0,
+    "exento": 0,
+    "IVA": 0,
+    "total": 0
+  }
+}
