@@ -1,0 +1,10 @@
+"otrosImpuestos": [
+    {
+      "codigoImpuesto": "string",
+      "montoImpuesto": 0
+    },
+    {
+      "codigoImpuesto": "string",
+      "montoImpuesto": 0
+    }
+]
