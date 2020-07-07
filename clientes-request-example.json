@@ -1,0 +1,13 @@
+{
+  "application/json": {
+    "Rut": "11111111-1",
+    "RazonSocial": "Juan Cliente",
+    "Giro": "EMPRESA DE SERVICIOS INTEGRALES DE INFORMATICA",
+    "Acteco": "ACTIVIDADES DE ASESORAMIENTO EMPRESARIAL Y EN MATERIA DE GESTION",
+    "DireccionLegal": "Orinoco 90",
+    "ComunaLegalNombre": "Las Condes",
+    "Contacto": "Juan Contador",
+    "Email": "juan.contador@ejemplo.com",
+    "seEnviaPDF": 1
+  }
+}
