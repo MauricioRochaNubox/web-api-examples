@@ -1,5 +1,4 @@
-{
-  "application/json": {
+[{
     "Rut": "11111111-1",
     "RazonSocial": "Juan Cliente",
     "Giro": "EMPRESA DE SERVICIOS INTEGRALES DE INFORMATICA",
@@ -10,4 +9,4 @@
     "Email": "juan.contador@ejemplo.com",
     "seEnviaPDF": 1
   }
-}
+]
