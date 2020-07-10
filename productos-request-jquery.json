@@ -1,5 +1,5 @@
 var settings = {
-  "url": "https://api.nubox.com/Nubox.API.Cert/factura/1-9/1/productos",
+  "url": "https://api.nubox.com/Nubox.API/factura/1-9/1/productos",
   "method": "POST",
   "timeout": 0,
   "headers": {
