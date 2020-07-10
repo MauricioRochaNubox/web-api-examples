@@ -9,7 +9,7 @@ xhr.addEventListener("readystatechange", function() {
   }
 });
 
-xhr.open("POST", "https://api.nubox.com/Nubox.API.Cert/factura/1-9/1/productos");
+xhr.open("POST", "https://api.nubox.com/Nubox.API/factura/1-9/1/productos");
 xhr.setRequestHeader("token", "f96321b5-4691-4f9a-b097-f34bcf500216");
 xhr.setRequestHeader("Content-Type", "application/json");
 
