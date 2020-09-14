@@ -1,3 +1,3 @@
 [
-    "nEl medio de pago no es valido"
+    "El medio de pago no es valido"
 ]
