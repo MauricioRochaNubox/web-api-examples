@@ -11,7 +11,7 @@ var raw = JSON.stringify(
    "CodigoSIITipoDoc":33,
    "Folio":12,
    "Fecha":"2020-04-14T00:00:00.000Z",
-   "FechaVencimiento":"2020-05-14T00:00:00.000Z",
+   "FechaVencimiento":"2020-03-12T00:00:00.000Z",
    "RutEmisor":"2-7",
    "MontoExento":0,
    "MontoNeto":34440,
