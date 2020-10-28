@@ -19,13 +19,13 @@
             {
                "Key":"Content-Disposition",
                "Value":[
-                  "attachment; filename=DTE_FOLIO_407.png"
+                  "attachment; filename=DTE_FOLIO_339.png"
                ]
             },
             {
                "Key":"xmlId",
                "Value":[
-                  "1684063"
+                  "1691299"
                ]
             }
          ]
@@ -33,13 +33,15 @@
       "StatusCode":200,
       "ReasonPhrase":"OK",
       "Headers":[
-
+         
       ],
       "RequestMessage":null,
       "IsSuccessStatusCode":true
    },
+   "Folio":339,
    "MontoTotal":150000,
-   "Folio":407,
+   "MontoNeto":126050,
+   "TotalIVA":23950,
    "UrlBoleta":"error al obtener la url",
-   "TED":"<TED version=\"1.0\"><DD><RE>1-9</RE><TD>39</TD><F>407</F><FE>2020-06-16</FE><RR>11111111-1</RR><RSR>venta23</RSR><MNT>150000</MNT><IT1>Privado</IT1><CAF version=\"1.0\"><DA><RE>1-9</RE><RS>PRUEBA SPA</RS><TD>39</TD><RNG><D>360</D><H>459</H></RNG><FA>2019-04-05</FA><RSAPK><M>ua1ZhNZVO06hruVaF43vLh2DV7DqePoCS6J4oaVYGZe2iTRYwwhs7yU+J3fZ8C9hd1IPuO7iZYVr+GRJXYv5XQ==</M><E>Aw==</E></RSAPK><IDK>100</IDK></DA><FRMA algoritmo=\"SHA1withRSA\">sD9VyzBQCcRSYUuol+6lOBPkfR8e9AO6nkzm/SBiRoGWfOoQEdM9N2YrzqkwR9bcgHGSLUBC+mJoQTsPCllHIA==</FRMA></CAF><TSTED>2020-06-25T16:03:24</TSTED></DD><FRMT algoritmo=\"SHA1withRSA\">\r\niET+bA4oteq7xZGwH3KQuNm2NZMkVU5mVNbmh9VWYq3qx/VAyQ/A11u2gp8h4BBj5ifiR9jADG+zaPcUAkdExw==\r\n</FRMT></TED>"
+   "TED":"<TED version=\"1.0\"><DD><RE>76804564-K</RE><TD>39</TD><F>339</F><FE>2020-06-16</FE><RR>11111111-1</RR><RSR>venta23</RSR><MNT>150000</MNT><IT1>Privado</IT1><CAF version=\"1.0\"><DA><RE>76804564-K</RE><RS>PST PAGO FACIL SPA</RS><TD>39</TD><RNG><D>6</D><H>1005</H></RNG><FA>2019-11-25</FA><RSAPK><M>uqtRbpaRaXn0n/aHz+82IQnZLLn0dO3emsc3GPv/RfZLUrLerZ8XKr4g4fKv77uvW+4l7Q0OyY0kszk70ywfiQ==</M><E>Aw==</E></RSAPK><IDK>100</IDK></DA><FRMA algoritmo=\"SHA1withRSA\">o6xtujnq4Oo4oAE0cfhg3lpkMiR81u9D2koVLxqalRCm3AJclmJUccf6O6BMAQEskzQQ24AqMjfBuVDDgGx1gQ==</FRMA></CAF><TSTED>2020-10-27T22:10:11</TSTED></DD><FRMT algoritmo=\"SHA1withRSA\">\r\nIobIzSZd4qbBwv/90LqH9zuRlwDDgJekBmIZeqvp+lwohPUM3BVvRXVsjQpX2QfJg12lNtZRu29UXEjJx2iKjg==\r\n</FRMT></TED>"
 }
