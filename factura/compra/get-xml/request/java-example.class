@@ -1,0 +1,8 @@
+OkHttpClient client = new OkHttpClient().newBuilder()
+  .build();
+Request request = new Request.Builder()
+  .url("https://api.nubox.com/Nubox.API/factura/documento/1-6/compra/2020-06-17/FAC-EL/0/1")
+  .method("GET", null)
+  .addHeader("token", "5af4633b-0f68-403c-9340-a8d74dea05de")
+  .build();
+Response response = client.newCall(request).execute();
