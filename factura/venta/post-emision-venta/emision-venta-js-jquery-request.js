@@ -1,5 +1,5 @@
 var settings = {
-  "url": "https://api.nubox.com/Nubox.API.cert/factura/documento/15478788-7/1/rutFuncionario/1/emitir/ventaExtendido?rutFuncionario=13954729-2&emitir=true",
+  "url": "https://api.nubox.com/Nubox.API/factura/documento/15478788-7/1/rutFuncionario/1/emitir/ventaExtendido?rutFuncionario=13954729-2&emitir=true",
   "method": "POST",
   "timeout": 0,
   "headers": {

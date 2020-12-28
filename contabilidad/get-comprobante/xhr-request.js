@@ -12,5 +12,6 @@ xhr.addEventListener("readystatechange", function() {
 xhr.open("POST", "https://api.nubox.com/nubox.api/contabilidad/Partner%20API/1/comprobante");
 xhr.setRequestHeader("token", "a691c25b-d4b9-4c3b-ad8b-1d3114d0335b");
 xhr.setRequestHeader("Content-Type", "application/json");
+xhr.setRequestHeader("Cookie", ".Stackify.Rum=4c648f24-1d4f-4817-a602-57005e5e24da");
 
 xhr.send(data);

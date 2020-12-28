@@ -1,7 +1,7 @@
 require "uri"
 require "net/http"
 
-url = URI("https://api.nubox.com/Nubox.API.cert/factura/documento/15478788-7/1/rutFuncionario/1/emitir/ventaExtendido?rutFuncionario=13954729-2&emitir=true")
+url = URI("https://api.nubox.com/Nubox.API/factura/documento/15478788-7/1/rutFuncionario/1/emitir/ventaExtendido?rutFuncionario=13954729-2&emitir=true")
 
 https = Net::HTTP.new(url.host, url.port)
 https.use_ssl = true
