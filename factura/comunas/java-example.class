@@ -1,0 +1,9 @@
+OkHttpClient client = new OkHttpClient().newBuilder()
+  .build();
+Request request = new Request.Builder()
+  .url("https://api.nubox.com/Nubox.API/factura/comunas")
+  .method("GET", null)
+  .addHeader("token", "8b47950f-42cf-4ecd-9a9c-4bbcc86a86d2")
+  .addHeader("Cookie", ".Stackify.Rum=4c648f24-1d4f-4817-a602-57005e5e24da")
+  .build();
+Response response = client.newCall(request).execute();

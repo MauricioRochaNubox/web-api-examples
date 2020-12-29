@@ -1,0 +1,12 @@
+OkHttpClient client = new OkHttpClient().newBuilder()
+  .build();
+MediaType mediaType = MediaType.parse("application/json");
+RequestBody body = RequestBody.create(mediaType, "[\n    {\n      \"CodigoSII\": 1,\n      \"DireccionLegal\": \"Av. Apoquindo 102\",\n      \"ComunaLegalId\": 473,\n      \"Activa\": true,\n      \"Codigo\": \"Codigo 1\",\n      \"Descripcion\": \"Sucursal Apoquindo\"\n    },\n    {\n      \"CodigoSII\": 2,\n      \"DireccionLegal\": \"Av. Vitacura 2236\",\n      \"ComunaLegalId\": 473,\n      \"Activa\": true,\n      \"Codigo\": \"Codigo 2\",\n      \"Descripcion\": \"Sucursal Vitacura\"\n    }\n  ]");
+Request request = new Request.Builder()
+  .url("https://api.nubox.com/Nubox.API/factura/1-9/1/sucursales")
+  .method("POST", body)
+  .addHeader("token", "37998f88-7701-4c3b-9d2f-3fee2e53aebc")
+  .addHeader("Content-Type", "application/json")
+  .addHeader("Cookie", ".Stackify.Rum=4c648f24-1d4f-4817-a602-57005e5e24da")
+  .build();
+Response response = client.newCall(request).execute();

@@ -1,0 +1,12 @@
+OkHttpClient client = new OkHttpClient().newBuilder()
+  .build();
+MediaType mediaType = MediaType.parse("application/json");
+RequestBody body = RequestBody.create(mediaType, "[\n{\n    \"Rut\": \"7809318-8\",\n    \"RazonSocial\": \"Juan Proveedor\",\n    \"Giro\": \"EMPRESA DE SERVICIOS\",\n    \"Acteco\": \"ACTIVIDADES DE ASESORAMIENTO EMPRESARIAL Y EN MATERIA DE GESTION\",\n    \"DireccionLegal\": \"Orinoco 90\",\n    \"ComunaLegalNombre\": \"Las Condes\",\n    \"Contacto\": \"Juan Contador\",\n    \"Email\": \"juan.contador@ejemplo.com\",\n    \"seEnviaPDF\": 1\n  }\n]");
+Request request = new Request.Builder()
+  .url("https://api.nubox.com/Nubox.API.Cert/factura/1-9/1/proveedores")
+  .method("POST", body)
+  .addHeader("token", "9f83d9db-61f9-4da3-8b64-c1e0ac746946")
+  .addHeader("Content-Type", "application/json")
+  .addHeader("Cookie", ".Stackify.Rum=4c648f24-1d4f-4817-a602-57005e5e24da")
+  .build();
+Response response = client.newCall(request).execute();

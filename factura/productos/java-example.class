@@ -1,0 +1,12 @@
+OkHttpClient client = new OkHttpClient().newBuilder()
+  .build();
+MediaType mediaType = MediaType.parse("application/json");
+RequestBody body = RequestBody.create(mediaType, "[\n    {\n      \"Codigo\": \"PR0001\",\n      \"Nombre\": \"Nombre Producto 1\",\n      \"Descripcion\": \"Descripción Producto 1\",\n      \"Cantidad\": 20,\n      \"Precio\": 15000,\n      \"Inventariable\": true\n    },\n    {\n      \"Codigo\": \"PR0002\",\n      \"Nombre\": \"Nombre Producto 2\",\n      \"Descripcion\": \"Descripción Producto 2\",\n      \"Cantidad\": 15,\n      \"Precio\": 23000,\n      \"Inventariable\": false\n    }\n  ]");
+Request request = new Request.Builder()
+  .url("https://api.nubox.com/Nubox.API/factura/1-9/1/productos")
+  .method("POST", body)
+  .addHeader("token", "f96321b5-4691-4f9a-b097-f34bcf500216")
+  .addHeader("Content-Type", "application/json")
+  .addHeader("Cookie", ".Stackify.Rum=4c648f24-1d4f-4817-a602-57005e5e24da")
+  .build();
+Response response = client.newCall(request).execute();
